@@ -30,7 +30,7 @@ static final int SCREEN_WIDTH = 1300;
 	GamePanel(){
 		random = new Random();
 		this.setPreferredSize(new Dimension(SCREEN_WIDTH,SCREEN_HEIGHT));
-		this.setBackground(Color.black);
+		this.setBackground(Color.pink);
 		this.setFocusable(true);
 		this.addKeyListener(new MyKeyAdapter());
 		startGame();
